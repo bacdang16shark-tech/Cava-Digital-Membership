@@ -11,26 +11,5 @@ Members receive curated documentation designed for educational and informational
 
 Subscribe
 
-SUBSCRIBE LINK
-<div id="paypal-button-container-P-6UJ68423J8032003NNGYYHQI"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=ASWSR_mp72fA3oEjNYB49XF7kchMFBAlo4l-MvDT7AuI4Yg6t0dZc_tHR2x8cCsG2Ym9kjLqt4YwwOLo&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'rect',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'subscribe'
-      },
-      createSubscription: function(data, actions) {
-        return actions.subscription.create({
-          /* Creates the subscription */
-          plan_id: 'P-6UJ68423J8032003NNGYYHQI',
-          quantity: 1 // The quantity of the product for a subscription
-        });
-      },
-      onApprove: function(data, actions) {
-        alert(data.subscriptionID); // You can add optional success message for the subscriber here
-      }
-  }).render('#paypal-button-container-P-6UJ68423J8032003NNGYYHQI'); // Renders the PayPal button
-</script>
+[SUBSCRIBE LINK](https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-6UJ68423J8032003NNGYYHQI)
+
